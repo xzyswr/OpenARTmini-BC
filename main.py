@@ -5,11 +5,8 @@ import sensor, image, time, math
 import os, tf
 import seekfree
 
-#乐师赛道黑色阈值
 #thresholds1_black = [(0, 60, -15, 7, -19, 18)]
-#乐师赛道黑色阈值
 thresholds1_black = [(47, 100, -14, 25, -14, 17)]
-#乐师猜测白色阈值1
 thresholds = [(65, 100, -59, 105, -30, 60)]
 
 def Camera_Init():
